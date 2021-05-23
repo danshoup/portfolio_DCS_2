@@ -10,7 +10,7 @@ This is the eighth assigment for MSU Coding Bootcamp; to update the portfolio we
 [Daniel Shoup's Portfolio Page](https://danshoup.github.io/portfolio_DCS_2/)
 [Daniel Shoup's GitHub Page](https://github.com/danshoup)
 [Daniel Shoup's LinkedIn Profile](https://www.linkedin.com/in/daniel-shoup-21873b2a/)
-[Daniel Shoup's Resume](https://danshoup.github.io/portfolio_DCS_2/)
+[Daniel Shoup's Resume](./assets/doc/resume2021.pdf)
 
 
 ​
