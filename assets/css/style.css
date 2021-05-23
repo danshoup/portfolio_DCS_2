@@ -40,3 +40,7 @@
     list-style: none;
   }
   
+  .jumbotron {
+      background-image: url("../images/image2.jpg");
+      background-size: cover;
+  }
