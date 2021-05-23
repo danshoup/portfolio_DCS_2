@@ -1,144 +1,42 @@
-:root {
-    --bluegrey: #2a607c;
-    --white: cornsilk;
-    font-size: 10px
-
-}
-
 * {
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-
-body {
-    background-color: var(--white)6;
-}
-
-/* Header with <nav> inline and floating right. */
-header {
-    padding: 20px;
-    background-color: var(--bluegrey);
-    color: var(--white);
-    position: fixed; 
-    top: 0;
-    width: 100%;
-}
-
-nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2rem;
-}
-/* <nav> href links with no underline */
-nav ul li a {
-    color: var(--white);
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
-ul li {
-    display: inline-block;
-    margin-left: 30px;
-}
-
-h1 {
-    display: inline-block;
-    font-size: 4rem;
-}
-
-h2 {
-    font-size: 3rem;
-    color: var(--bluegrey);
-    float: right;
-    padding-right: 20px;
-}
-
-p {
-    font-size: 1.5rem;
-}
-
-img {
-    width: 100%;
-    height: 500px;
-}
-
-/* Three main content sections with asides to the left. */
-
-main {
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-    padding: 15px;
-}
-
-div {
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-}
-
-aside {
-    border-right: solid 5px var(--bluegrey);
-    min-width: 20%;
-}
-
-section {
-    max-width: 75%;
-    padding: 20px;
-}
-
-.about-me {
-
-}
-.about-me img {
-    max-height: 125px;
-    max-width: 125px;
-    float: left;
-    margin-right: 10px;
-}
-
-.work {
-    display: flex;
-    flex-flow; row wrap;
-    justify-content; center;
-    align-items; flex-start;
-    align-content: flex-start;
-    flex; 1 0 auto;
-    padding; 20px;
-}
-
-.work img {
-    border: solid;
-    border-color: var(--bluegrey);
-    border-radius; 8px;
-    width: 40%;
-    height: auto;
-}
-
-#image1 {
-    width: 80%;
-}
-
-.contact {
-
-}
-
-.contact li {
-    font-size: 1.5rem;
-    padding: 20px;
-}
-
-/* Footer blue line at the bottom of page */
-footer {
-    padding: 30px;
-    background-color: var(--bluegrey);
-}
-
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 100%;
+  }
+  
+  input,
+  select,
+  option,
+  optgroup,
+  textarea,
+  button,
+  pre,
+  code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
