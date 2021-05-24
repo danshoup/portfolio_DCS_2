@@ -66,3 +66,12 @@
       background-image: url("../images/image2.jpg");
       background-size: 100vw;
   }
+
+  .card {
+      border-radius: 8px;
+      transition: all 0.5s ease-in-out;
+  }
+
+  .card:hover {
+    box-shadow: inset 0px 0px 8px var(--tan), 0 0 15px var(--tan);
+  }
