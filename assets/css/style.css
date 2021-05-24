@@ -4,14 +4,28 @@
     box-sizing: border-box;
   }
   
+  :root {
+      --dark: #5D5C61;
+      --gray: #378683;
+      --lightBlue: #7395AE;
+      --blue: #557A95;
+      --tan: #B1A296;
+      --white: white;
+  }
+
   html {
     height: 100%;
+  }
+
+  nav {
+      background-color: var(--blue);
   }
   
   body {
     min-height: 100%;
     line-height: 1;
-    font-family: sans-serif;
+    font-family: Roboto, Montserrat, sans-serif;
+    background-color: var(--lightBlue);
   }
   
   h1,
@@ -38,6 +52,14 @@
   ol,
   ul {
     list-style: none;
+  }
+
+  footer {
+      background-color: var(--blue);
+  }
+  
+  footer li a {
+      color: var(--white);
   }
   
   .jumbotron {
