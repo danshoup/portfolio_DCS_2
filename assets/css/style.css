@@ -6,7 +6,7 @@
   
   :root {
       --dark: #5D5C61;
-      --gray: #378683;
+      --gray: #379683;
       --lightBlue: #7395AE;
       --blue: #557A95;
       --tan: #B1A296;
@@ -62,6 +62,9 @@
       color: var(--white);
   }
   
+  .btn {
+      background-color: var(--dark);
+  }
   .jumbotron {
       background-image: url("../images/image2.jpg");
       background-size: 100vw;
